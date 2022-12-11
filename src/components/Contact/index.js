@@ -1,6 +1,27 @@
+import { useRef } from 'react'
 import './index.scss'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
+
+    const form = useRef()
+
+    const sendEmail = (e) => {
+        e.preventDefault()
+
+    emailjs
+      .sendForm('icloud', 'template_pjd48ak', form.current, 'jEtKSplpPVMloLtvNeNUT')
+      .then(
+        () => {
+          alert('Message successfully sent!')
+          window.location.reload(false)
+        },
+        () => {
+          alert('Failed to send the message, please try again')
+        }
+      )
+        
+    }
     return (
         <div className='container contact-page'>
             <div className='text-zone'>
@@ -13,7 +34,7 @@ const Contact = () => {
                 to contact me with any questions or opportunities.
             </p>
             <div className='contact-form'>
-                <form>
+                <form ref = {form} onSubmit={sendEmail}>
                     <ul>
                         <li className='half'>
                             <input type="text" name="name" placeholder="Name" required />
