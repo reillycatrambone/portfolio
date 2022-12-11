@@ -1,28 +1,29 @@
 .home-page {
     .text-zone {
         position:absolute;
-        left:10%;
+        left:25%;
         top: 40%;
         transform: translateY(-50%);
-        width: 40%;
+        
         max-height: 90%;
 
     }
 
     h1 {
-        color: rgb(15, 14, 14);
-        font-size: 100px;
+        color: #fff;
+        font-size: 120px;
         margin: 1;
         font-family: 'La Belle Aurore';
         font-weight: 400;
         position: relative;
         left: 15px;
         opacity: 0.9;
-        animation:fadeIn 1s 1s backwards;    
+        animation:fadeIn 1s 1s backwards; 
+        text-align: center;   
     }
 
     h2 {
-        color: rgb(15, 14, 14);
+        color: #fff;
         font-size: 40px;
         margin: 1;
         font-family: 'La Belle Aurore';
@@ -31,11 +32,24 @@
         left: 15px;
         opacity: 0.9;
         animation:fadeIn 1s 1.5s backwards;
+        text-align: center
+    }
+    h3 {
+        color: #fff;
+        font-size: 40px;
+        margin: 1;
+        font-family: 'La Belle Aurore';
+        font-weight: 400;
+        position: relative;
+        left: 15px;
+        opacity: 0.9;
+        animation:fadeIn 1s 1.5s backwards;
+        text-align: center
     }
     
     .flat-button {
-        color: rgb(15, 14, 14);
-        font-size: 13px;
+        color: #fff;
+        font-size: 14px;
         font-weight: 400;
         letter-spacing: 4px;
         font-family: sans-serif;
@@ -46,5 +60,11 @@
         float: left;
         animation:fadeIn 1s 1.5s backwards;
         white-space: norap;
+        
+        text-align: right;
+        padding-left: 20px;
+        margin-left: 300px;
+        
     }
+
 }

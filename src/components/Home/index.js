@@ -9,6 +9,7 @@ const Home = () => {
                 <br />
                 </h1>
                 <h2>Full Time Data Engineer.</h2>
+                <h3>Part Time Traveler, Reader, Fitness Enthusiast.</h3>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
 
