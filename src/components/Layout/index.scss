@@ -38,7 +38,7 @@
     animation-delay: 1s;
 }
 
-.about-page {
+.about-page, .contact-page {
     .text-zone {
         color: #fff;
         position: absolute;
@@ -51,19 +51,21 @@
         max-height: 90%;
 
     h1 {
+        color: #fff;
         font-size: 100px;
         font-family: 'La Belle Aurore';
         font-weight: 500;
     }
 
     p {
-        font-size: 30px;
+        font-size: 20px;
         font-style: 13px;
         color: #fff;
         font-family: 'Coolvetica Neu';
         font-weight: 200;
         min-width: fit-content;
         animation: pulse 1s;
+        
 
         &:nth-of-type(1) {
             animation-delay: 1.0s;
