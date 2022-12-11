@@ -57,10 +57,10 @@
     }
 
     p {
-        font-size: 40px;
+        font-size: 30px;
         font-style: 13px;
         color: #fff;
-        font-family: sans-serif;
+        font-family: 'Coolvetica Neu';
         font-weight: 200;
         min-width: fit-content;
         animation: pulse 1s;
@@ -72,12 +72,6 @@
             animation-delay: 1.2s;
         }
     }
-    }
-   
-    .text-animate-hover {
-        &:hover {
-            color:#ffd700
-        }
     }
 }
 

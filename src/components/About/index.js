@@ -11,12 +11,16 @@ const About = () => {
                 </h1>
 
                 <p> 
-                    I am an engineer looking to solve difficult problems and build quality products.
+                    Hometown: San Diego
                 </p>
 
                 <p> 
-                    I graduated from UC Berkeley with a Bachelors in Data Science, 
-                    primarily focused in Finance.    
+                    Education: BA Data Science from UC Berkeley    
+                </p>
+                <p> 
+                    Current Position: Data Engineer at Pacific Gas and Electric working with the 
+                    Public Safety Power Shutoff team to mitigate risk in high fire threat areas 
+                    throughout California.    
                 </p>
             </div>
             <div className='stage-cube-cont'>
