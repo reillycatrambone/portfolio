@@ -1,16 +1,15 @@
-import { useRef } from 'react'
-import './index.scss'
-import emailjs from '@emailjs/browser'
+import React, { useRef } from 'react';
+import './index.scss';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
 
-    const form = useRef()
+    const form = useRef();
 
     const sendEmail = (e) => {
-        e.preventDefault()
+        e.preventDefault();
 
-    emailjs
-      .sendForm('icloud', 'template_pjd48ak', form.current, 'jEtKSplpPVMloLtvNeNUT')
+    emailjs.sendForm('t2jk90f', 'template_faji5p8', form.current, 'E61vNREVV36FNtuYa')
       .then(
         () => {
           alert('Message successfully sent!')
